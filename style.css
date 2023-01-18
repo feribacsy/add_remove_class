@@ -1,0 +1,21 @@
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    width: 900px;
+    margin: auto; 
+}
+.shape{
+    background: rgb(202, 219, 155);
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: 60px;
+}
