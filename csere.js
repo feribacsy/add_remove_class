@@ -16,3 +16,5 @@ document.getElementById("element_0").onclick = function(){
     }
 
 }
+
+let isHover = false;
