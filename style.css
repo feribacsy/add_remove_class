@@ -1,5 +1,4 @@
-
-.container{
+#container{
     display: flex;
     justify-content: space-around;
     align-items: center; 
@@ -15,6 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 10;
 }
 .text{
     font-size: 60px;
@@ -22,4 +22,10 @@
 .blue{
     background: blue;
     color:aliceblue;
+}
+.hidden{
+    display: none;
+}
+.borderRadius{
+    border-radius: 50%;
 }
